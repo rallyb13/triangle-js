@@ -13,5 +13,5 @@ h2, h6 {
 
 input[type=text]{
   border-radius:10px;
-  width: 150px; /* change the input field size!!! */
+  width: 125px; /* change the input field size!!! */
 }
