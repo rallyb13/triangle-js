@@ -29,8 +29,8 @@ describe('triangle', function() {
 });
 
 describe('angleCheck', function() {
-  it("will return nothing if the longest side is not entered last (as instructed)", function() {
-    expect(angleCheck(4, 1, 1)).to.equal(" ");
+  it("will return no result if the longest side is not entered last (as instructed)", function() {
+    expect(angleCheck(4, 2, 2)).to.equal(" ");
   });
 
   it("will recognize a right triangle", function() {
@@ -46,6 +46,6 @@ describe('angleCheck', function() {
   });
 
   it("will use the triangle function to give no answer for sides that aren't triangles", function() {
-    expect(angleCheck(1,1,7)).to.equal(" ")
+    expect(angleCheck(1,1,7)).to.equal("Sorry!")
   });
 });
