@@ -1,9 +1,8 @@
 body {
-  background-color: #006151;
-
+  background-color: #F60;
 }
 
-.container {
+/*.container {
   background-color: #18B197;
   margin-top: 15%;
   width: 400px;
@@ -12,31 +11,10 @@ body {
   padding: 15px;
   border: solid #007B66;
   border-radius: 10px;
+}*/
 
-}
-
-h1 {
-  color: #006151;
+h2, h6 {
   text-align: center;
-
-}
-
-h5 {
-  text-align: center;
-}
-
-p {
-  text-align: center;
-}
-
-.form-group {
-  margin-left: 23px;
-}
-
-#submit-btn {
-  margin-left: 135px;
-  margin-bottom: 30px;
-
 }
 
 #result {
@@ -46,5 +24,5 @@ p {
 
 input[type=text]{
   border-radius:10px;
-  width: 250px; /* change the input field size!!! */
+  width: 150px; /* change the input field size!!! */
 }
